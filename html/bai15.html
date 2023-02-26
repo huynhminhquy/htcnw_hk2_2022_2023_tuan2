@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <fieldset style="width: 40%;">
+        <legend>Your message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+            </tr>
+            <tr>
+                <td><label for="emailFrom">Your email</label></td>
+                <td><input type="text" name="txtFrom" id="emailFrom" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset style="width: 40%;">
+        <legend>How you found us:</legend>
+        <table>
+            <tr>
+                <td><label for="hear">How did you hear of us</label></td>
+                <td>
+                    <select name="Browser">
+                        <option value="Google">Google</option>
+                        <option value="CocCoc">CocCoc</option>
+                        <option value="Firefox">Firefox</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Newsletter</label></td>
+                <td><input type="checkbox">Ensure this box is checked if you would like to receive email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" value="Send message" style="margin-left: 2px;"></p>
+    <hr>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <table>
+            <tr>
+                <td><label for="first_name">First name:</label></td>
+                <td><input type="text" name="first_name" id="first_name"></td>
+            </tr>
+            <tr>
+                <td>la Last name:</td>
+                <td><input type="text" name="last_name" id="last_name"></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Competition Question</legend>
+         <table>
+            <tr style="display: block;">
+                <td style="display: block;"><label for="">How tall is the Eiffel Tower in Paris, France?</label></td>
+                <td style="display: block;"><input type="checkbox">584 ft</td>
+                <td style="display: block;"><input type="checkbox">784 ft</td>
+                <td style="display: block;"><input type="checkbox">984 ft</td>
+                <td style="display: block;"><input type="checkbox">1184 ft</td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Tiebreaker Question</legend>
+        <table>
+            <tr>
+                <td style="display: block;"><label for="body_question">In 25 words or less, say why you would like to win $10,000:</label></td>
+                <td style="display: block;"><textarea name="body" id="body_question" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>Enter competition</legend>
+        <input type="submit" value="Enter Competition">
+    </fieldset>
+</body>
+</html>
