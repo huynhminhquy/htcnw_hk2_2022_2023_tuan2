@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>Travel reservation form</h2>
+        <h4>*denotes mandotory</h4>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td style="display: block;"><label for="full_name">Full name*:</label></td>
+                <td style="display: block;"><input type="text" name="full_name" id="full_name" readonly="readonly" placeholder="FirstName LastName"></td>
+            </tr>
+            <tr>
+                <td style="display: block;"><label for="email_address">Email address*:</label></td>
+                <td style="display: block;"><input type="text" name="email_address" id="email_address" readonly="readonly" placeholder="EMAIL_ADDRESS"></td>
+            </tr>
+            <tr>
+                <td style="display: block;"><label for="tour">Select Tour Package*:</label></td>
+                <td style="display: block;">
+                    <select name="tour" id="tour">
+                        <option value="">Goa</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td style="display: block;"><label for="date">Arrival date*</label></td>
+                <td style="display: block;"><input type="text" name="date" id="date" placeholder="m/d/y"></td>
+            </tr>
+            <tr>
+                <td style="display: block;"><label for="persons">Number of persons*:</label></td>
+                <td style="display: block;"><input type="text" name="persons" id="persons" placeholder="UNKNOWN_TYPE"></td>
+            </tr>
+            <tr>
+                <td style="display: block;"><label for="">What would you want to avail*</label></td>
+                <td style="display: block;">Boarding<input type="checkbox" name="" id=""></td>
+                <td style="display: block;">Fooding<input type="checkbox" name="" id=""></td>
+                <td style="display: block;">Sight seeing<input type="checkbox" name="" id=""></td>
+            </tr>
+            <tr>
+                <td style="display: block;"><label for="code">Discout Coupon code:</label></td>
+                <td style="display: block;"><input type="text" name="code" id="code" placeholder="UNKNOWN_TYPE"></td>
+            </tr>
+            <tr>
+                <td style="display: block;"><label for="check">Terms and conditions*</label></td>
+                <td style="display: block;">
+                    <input type="checkbox" name="check" id="check">I agree 
+                    <input type="checkbox" name="check" id="check">I disagree
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Complete reservation">
+                </td>
+            </tr>
+    </div>
+</body>
+</html>
